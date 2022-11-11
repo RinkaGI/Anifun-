@@ -13,4 +13,4 @@ async def fact(ctx):
     await ctx.respond(facts.generateRandomFact(), view=buttons.GenerateRandomAgain(), ephemeral=False)
 
 keep_alive.keep_alive()
-bot.run('MTA0MDY5NzY2NDAyODgwMzEzMw.GGPqZY.D2FbNfwLnr102exKDTR0oJpUUKI3dBrNyVYl5I')
+bot.run()
