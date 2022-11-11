@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def main():
-  return "YouTube Tutorial Is Working!" #Change this if you want
+  return "Bot running" #Change this if you want
 
 def run():
     app.run(host="0.0.0.0", port=8080) #don't touch this
